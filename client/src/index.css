@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --color-accent: #1d4ed8;
+  --color-ink: #14171f;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: var(--color-ink);
+  background: #f7f7f8;
+}
+
+.leaflet-container {
+  border-radius: 0.5rem;
+}
